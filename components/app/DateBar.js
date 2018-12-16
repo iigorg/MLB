@@ -16,6 +16,7 @@ export default class DateBar extends React.Component {
 	}
 
     // occurs when the left arrow is pressed...
+
 	onLeftArrowPress = () => {
 		const newDate = new Date(this.state.date);
 		newDate.setDate(newDate.getDate() - 1);
@@ -25,6 +26,7 @@ export default class DateBar extends React.Component {
 	}
 
 	// occurs when the right arrow is pressed...
+	
 	onRightArrowPress = () => {
 		const newDate = new Date(this.state.date)
 		newDate.setDate(newDate.getDate() + 1);
