@@ -15,7 +15,6 @@ export default class DateBar extends React.Component {
 		this.state = { date: this.props.date }
 	}
 
-
     // occurs when the left arrow is pressed...
 	onLeftArrowPress = () => {
 		const newDate = new Date(this.state.date);
