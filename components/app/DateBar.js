@@ -1,6 +1,6 @@
-import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
-import { MaterialCommunityIcons as Icon } from 'react-native-vector-icons';
+import React from 'react'
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
+import { MaterialCommunityIcons as Icon } from 'react-native-vector-icons'
 
 export default class DateBar extends React.Component {
 
