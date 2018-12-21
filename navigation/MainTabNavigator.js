@@ -4,11 +4,13 @@ import { createStackNavigator, createBottomTabNavigator } from 'react-navigation
 
 import TabBarIcon from '../components/TabBarIcon';
 import GameScreen from '../screens/GameScreen';
+import VideosScreen from '../screens/VideosScreen';
 import LinksScreen from '../screens/LinksScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 
 const GameStack = createStackNavigator({
   Game: GameScreen,
+  Videos: VideosScreen
 });
 
 GameStack.navigationOptions = {
